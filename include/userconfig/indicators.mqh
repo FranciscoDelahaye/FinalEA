@@ -1,3 +1,4 @@
+// Aqui almacenaremos los inputs de nuestros indicadores
 // RSI Variables
 input string RSI_Indicator_Name = "rsi";                    //Nombre del indicador
 input int RSI_Period = 14;                                  //Periodo RSI

@@ -1,5 +1,7 @@
 //Estructura de indicadores.
-#define IndicatorSize   3
+
+#define IndicatorSize   3                    //Cantidad de indicadores
+
 struct SIndicator{
    string               name;                //Nombre indicador
    int                  value1;              //Valor 1 del indicador(Ej: Periodo, o ma fast de macd, o k en stoch,etc)

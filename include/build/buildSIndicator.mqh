@@ -1,13 +1,11 @@
 #include <..\..\FinalEA\data\SIndicator.mqh>
 
 bool buildSIndicator(SIndicator &Sindi[], int SSize){
-   if(SSize==0){
-      return false;
-   }
-   else{
+   if(SSize!=0){
       ArrayResize(Sindi,SSize,0);
+      return true;
    }
-   return true;
+   return false;
 };
 
 bool initIndicator(SIndicator &Sindi[], int arrayPositionI, string name, int value1, int value2, int value3, int desviation, int level_mid, int level_buy, int level_sell, ENUM_APPLIED_PRICE ap){
